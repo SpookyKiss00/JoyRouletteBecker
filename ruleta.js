@@ -84,9 +84,6 @@ function ruleta(){
 
     }
 
-
-
-
 //Consultar acerca de la cantidad de números que tiene la ruleta
 let cantidadNumeros = document.getElementById("cantidadNumeros")
 cantidadRuleta = cantidadNumeros.addEventListener('input', ruleta)
