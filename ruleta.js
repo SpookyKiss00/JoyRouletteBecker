@@ -50,7 +50,6 @@ function ruleta(){
     let apostarNumero = document.getElementById("botonNumero").addEventListener('click', apuestaNumero)
 
     function apuestaNumero(){
-        quitarBotonColor = document.getElementById('botonColor').remove()
         let contenedorApuestas = document.getElementById("contenedorApuestas").innerHTML = '<span class="input-group-text" id="basic-addon1">:D</span> <input id="numeroApuesta" type="number" class="form-control" placeholder="N° a apostar" required> <button id="botonApostar" type="button" class="btn btn-primary">Apostar</button>'
 
         let numeroApuesta = document.getElementById("numeroApuesta")
@@ -61,7 +60,6 @@ function ruleta(){
     let apostarColor = document.getElementById("botonColor").addEventListener('click', apuestaColor)
 
     function apuestaColor() {
-        quitarBotonNumero = document.getElementById('botonNumero').remove()
         let contenedorApuestas = document.getElementById("contenedorApuestas").innerHTML = '<button id="colorRojo" value="rojo" type="button" class="btn btn-danger">Rojo (Pares)</button> <button id="colorVerde" value="verde" type="button" class="btn btn-success">Verde (N° 0)</button> <button id="colorNegro" value="negro" type="button" class="btn btn-dark">Negro (Impares)</button>'
 
         let colorRojo = document.getElementById("colorRojo")
