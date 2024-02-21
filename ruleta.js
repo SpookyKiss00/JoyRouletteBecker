@@ -83,7 +83,6 @@ function ruleta(){
     }
 
 //Consultar acerca de la cantidad de números que tiene la ruleta
-alert("3a Preentrega: Estas son las contraseñas con las que funciona el código(usuario // contraseña): 1) luffy // monkey; 2) zoro // roronoa; 3) nami // nami")
 
 let cantidadNumeros = document.getElementById("cantidadNumeros")
 cantidadRuleta = cantidadNumeros.addEventListener('input', ruleta)
