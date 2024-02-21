@@ -5,8 +5,8 @@ function ruleta(){
     // console.log(cantidadNumeros.value)
 
     function NumeroRandom (){
-        apuesta = numeroApuesta.value
-        cantidad = cantidadNumeros.value
+        apuesta = parseInt(numeroApuesta.value)
+        cantidad = parseInt(cantidadNumeros.value)
         if (apuesta < 0 || apuesta > cantidad || isNaN(apuesta)){ //Corregir el ISNAN
             alert ("El número debe ser los de la ruleta, entre 0 y " + cantidad)
         }else{
@@ -24,7 +24,7 @@ function ruleta(){
     
     function ColorRandom (color){
         apuesta = color
-        cantidad = cantidadNumeros.value
+        cantidad = parseInt(cantidadNumeros.value)
         let numeroRuleta = Math.floor(Math.random()*(cantidad))
         let colorReal="color"
         if (numeroRuleta==0){

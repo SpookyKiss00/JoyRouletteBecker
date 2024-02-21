@@ -38,6 +38,24 @@ body {
   padding: 0px 10px 0px 10px;
 }
 
+#tipoApuesta {
+  margin: 0 auto;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#contenedorApuestas {
+  margin: 0 auto;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .inicioSesion {
   margin: 0 auto;
   margin-top: 10px;
@@ -58,7 +76,66 @@ body {
   color: white;
 }
 
+@media (max-width: 172px) {
+  #tipoApuesta {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #tipoApuesta button {
+    width: 100%;
+  }
+}
+@media (max-width: 172px) {
+  #tipoApuesta {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #tipoApuesta button {
+    width: 100%;
+  }
+}
 @media (min-width: 400px) {
+  #resultadoApuesta {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #contenedorApuestas {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .ruleta {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+  #tipoApuesta {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+    align-items: center;
+  }
   .inicioSesion {
     margin: 0 auto;
     display: flex;
